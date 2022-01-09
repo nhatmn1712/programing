@@ -21,3 +21,4 @@ def register():
     with open('information.txt', 'w') as file:
         file.write(json.dumps(customer_info))
     file.close()
+    return "You have successfully registered"
